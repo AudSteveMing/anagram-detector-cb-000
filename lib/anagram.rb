@@ -20,7 +20,7 @@ class Anagram
         puts "it works!"
       end
     end
-      
+
     #   if i.sort("") == split_word.sort
     #     binding.pry
     #   end
