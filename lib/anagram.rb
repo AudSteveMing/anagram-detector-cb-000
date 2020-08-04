@@ -10,10 +10,12 @@ class Anagram
   end
 
   def match(array)
-
-    sorted_word = @word.sort("")
-    words = array.split(/( ,| )/)
-    words.each do |i|
+    count = 0
+    split_word = @word.split("") #convert instance string to array of individual letters
+    
+    # split_array = array.split(/( ,| )/) #split array of provided words into indiviudal elements
+    array.each do |i|
+      binding.pry
       if i.sort("") == sorted_word
         i
       end
