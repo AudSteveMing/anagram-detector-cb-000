@@ -15,10 +15,16 @@ class Anagram
     # split_array = array.split(/( ,| )/) #split array of provided words into indiviudal elements
 
     anagram_match.each do |i|
-      if i.sort("") == split_word.sort
-        binding.pry
+      array_words = i.split("")
+      if array_words.sort == split_word.sort
+        puts "it works!"
       end
     end
+      
+    #   if i.sort("") == split_word.sort
+    #     binding.pry
+    #   end
+    # end
 #
 #     @word == ["hello", "wood"]
 #     @word ==
