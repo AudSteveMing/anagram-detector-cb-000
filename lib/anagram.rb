@@ -13,12 +13,13 @@ class Anagram
     count = 0
     split_word = @word.split("") #convert instance string to array of individual letters
     # split_array = array.split(/( ,| )/) #split array of provided words into indiviudal elements
-
+    match = ""
     anagram_match.each do |i|
       array_words = i.split("")
       if array_words.sort == split_word.sort
-        puts "it works!"
-      end
+         match = i
+       end
+       match
       binding.pry
     end
 
