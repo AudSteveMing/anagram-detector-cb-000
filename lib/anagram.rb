@@ -34,6 +34,6 @@ class Anagram
 # [w, o , o, d]  [d, o, o, w]
 
   end
-  binding.pry
+  # binding.pry
 
 end
