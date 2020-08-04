@@ -12,7 +12,7 @@ class Anagram
   def match(array)
     count = 0
     split_word = @word.split("") #convert instance string to array of individual letters
-    
+
     # split_array = array.split(/( ,| )/) #split array of provided words into indiviudal elements
     array.each do |i|
       binding.pry
