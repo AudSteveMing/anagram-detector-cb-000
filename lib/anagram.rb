@@ -19,6 +19,7 @@ class Anagram
       if array_words.sort == split_word.sort
         puts "it works!"
       end
+      binding.pry
     end
 
     #   if i.sort("") == split_word.sort
