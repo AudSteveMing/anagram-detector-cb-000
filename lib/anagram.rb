@@ -20,7 +20,7 @@ class Anagram
          match = i
        end
        match
-      binding.pry
+      # binding.pry
     end
 
     #   if i.sort("") == split_word.sort
