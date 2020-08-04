@@ -12,14 +12,15 @@ class Anagram
   def match(anagram_match)
     count = 0
     split_word = @word.split("") #convert instance string to array of individual letters
-
+binding.pry
     # split_array = array.split(/( ,| )/) #split array of provided words into indiviudal elements
-    anagram_match.each do |i|
-      binding.pry
-      if i.sort("") == sorted_word
-        i
-      end
-    end
+
+    # anagram_match.each do |i|
+    #   binding.pry
+    #   if i.sort("") == sorted_word
+    #     i
+    #   end
+    # end
 #
 #     @word == ["hello", "wood"]
 #     @word ==
